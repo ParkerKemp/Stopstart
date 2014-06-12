@@ -36,7 +36,7 @@ public final class StopStart extends JavaPlugin{
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		if(cmd.getName().equalsIgnoreCase("stopstart")){
 			
-			String scriptArgs[] = {"sh", "restart.sh", "&"};
+			String scriptArgs[] = {"nohup", "sh", "restart.sh"};
 			
 			try {
 				Runtime.getRuntime().exec(scriptArgs);
