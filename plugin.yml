@@ -1,6 +1,8 @@
-name: StopStart
-main: com.spinalcraft.stopstart.StopStart
+name: Stopstart
+main: com.spinalcraft.stopstart.Stopstart
 version: 1.0
+
+depend: [Spinalpack]
 
 commands:
   stopstart:
