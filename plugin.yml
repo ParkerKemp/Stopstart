@@ -1,0 +1,10 @@
+name: StopStart
+main: com.spinalcraft.stopstart.StopStart
+version: 1.0
+
+commands:
+  stopstart:
+    description: Restart the server.
+    usage: /restart <time in seconds>
+    permission: stopstart.restart
+    permission-message: You're not allowed to do that!
