@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-import com.spinalcraft.spinalpack.SpinalcraftPlugin;
+import com.spinalcraft.skull.SpinalcraftPlugin;
 
 public final class Stopstart extends SpinalcraftPlugin{
 	

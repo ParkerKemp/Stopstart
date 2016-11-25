@@ -31,8 +31,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.spinalcraft</groupId>
-			<artifactId>Spinalpack</artifactId>
-			<version>1.1.0</version>
+			<artifactId>Skull</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -61,7 +61,7 @@
 							<minimizeJar>true</minimizeJar>
 							<artifactSet>
 								<includes>
-									<include>com.spinalcraft:Spinalpack</include>
+									<include>com.spinalcraft:Skull</include>
 									<include>org.newsclub:junixsocket</include>
 								</includes>
 							</artifactSet>
