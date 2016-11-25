@@ -11,6 +11,7 @@ public final class Stopstart extends SpinalcraftPlugin{
 	
 	@Override
 	public void onEnable(){
+		super.onEnable();
 	}
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
