@@ -62,7 +62,6 @@
 							<artifactSet>
 								<includes>
 									<include>com.spinalcraft:Skull</include>
-									<include>org.newsclub:junixsocket</include>
 								</includes>
 							</artifactSet>
 						</configuration>
